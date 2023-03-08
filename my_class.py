@@ -8,3 +8,13 @@ class MyClass_new:
         pak_suck = self.name + " " + "suck"
 
         return pak_suck
+
+
+# https://ru.hexlet.io/courses/python-oop-basics/lessons/inheritance/theory_unit
+class My_son(MyClass_new):
+
+
+    def func_2(self):
+        self.name = 2
+        print(self.name)
+        return self.name

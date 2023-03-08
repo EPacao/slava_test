@@ -1,5 +1,5 @@
 
-from my_class import MyClass_new
+from my_class import MyClass_new, My_son
 
 def my_void(a, b):
 
@@ -22,3 +22,8 @@ if __name__ == "__main__":
     suck = person1.func_suck()
     print(suck)
 #  gggjgjgj
+
+    person2 = My_son("Pak", 24)
+    pa = person2.func_2()
+    pa2 = person2.func_suck()
+    print(pa)
