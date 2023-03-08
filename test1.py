@@ -21,4 +21,6 @@ if __name__ == "__main__":
 
     suck = person1.func_suck()
     print(suck)
-#  gggjgjgj
+
+    # пошли пить
+
